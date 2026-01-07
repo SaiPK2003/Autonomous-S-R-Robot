@@ -6,7 +6,7 @@ def drive_robot(error):
     """
     Adjusts motor speeds based on deviations from the path center
     """
-    # Calculate control signal (Proportional only)
+    # Calculate control signal (Proportional value only)
     control = K_P * error
     
     # Calculate differential motor values 
