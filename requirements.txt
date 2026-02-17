@@ -1,0 +1,23 @@
+# Python Dependencies for SDW-25 Mk. II Autonomous S&R Robot
+# Install with: pip install -r requirements.txt
+
+# Computer Vision
+opencv-python>=4.5.0
+
+# Numerical Computing
+numpy>=1.19.0
+
+# Raspberry Pi GPIO Control
+RPi.GPIO>=0.7.0
+gpiozero>=1.6.0
+
+# IMU/Gyroscope Sensor
+mpu9250-jmdev>=1.0.0
+
+# System Dependencies (install via apt if needed):
+# - libatlas-base-dev (for NumPy optimization)
+# - python3-opencv (alternative to pip install)
+# - i2c-tools (for IMU debugging)
+#
+# Install system deps with:
+# sudo apt install -y libatlas-base-dev python3-opencv i2c-tools
